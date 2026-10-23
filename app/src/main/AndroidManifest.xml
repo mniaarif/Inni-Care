@@ -6,13 +6,12 @@
     <application
         android:allowBackup="true"
         android:label="Inni Care"
-        android:icon="@mipmap/ic_launcher"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@drawable/inni_icon"
         android:usesCleartextTraffic="false"
         android:theme="@android:style/Theme.Material.Light.NoActionBar">
 
         <activity
-            android:name=".MainActivity"
+            android:name="org.innicare.app.MainActivity"
             android:exported="true">
 
             <intent-filter>
@@ -23,5 +22,5 @@
         </activity>
 
     </application>
-</manifest>
 
+</manifest>
